@@ -7,3 +7,4 @@ spring:
   cloud:
     azure:
       servicebus:
+        connection-string: "Endpoint=sb://sb-pedidos360-admin.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=+KfC7BReo8KZlYU0J7rMTqNVEEjnZzYXZ+ASbKEgY/I="
