@@ -2,7 +2,8 @@ server:
   port: 8084
 
 spring:
+  application:
+    name: admin-service
   cloud:
     azure:
       servicebus:
-        connection-string: "Endpoint=sb://tu-namespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=tu-clave..."
